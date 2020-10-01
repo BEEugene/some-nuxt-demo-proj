@@ -23,7 +23,8 @@
 export default {
   name: "AppUpload",
   components:{
-    VueUploadMultipleImage},
+    // VueUploadMultipleImage
+  },
   data(){
     return{
       file:"",
