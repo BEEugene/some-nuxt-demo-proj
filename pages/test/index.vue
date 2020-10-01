@@ -1,6 +1,6 @@
 <template>
   <div id="my-strictly-unique-vue-upload-multiple-image" style="display: flex; justify-content: center;">
-    <vue-upload-multiple-image
+    <VueUploadMultipleImage
       @upload-success="uploadImageSuccess"
       @before-remove="beforeRemove"
       @edit-image="editImage"
@@ -14,16 +14,14 @@
       popupText = "This image will be set as default"
       dropText = "Drag and drop"
       accept = image/jpeg,image/png,image/jpg,image/tif,image/tiff
-    ></vue-upload-multiple-image>
+    ></VueUploadMultipleImage>
   </div>
 </template>
 
 <script>
-// import VueUploadMultipleImage from 'vue-upload-multiple-image'
+
 export default {
   name: "AppUpload",
-  components:{
-    VueUploadMultipleImage},
   data(){
     return{
       file:"",
