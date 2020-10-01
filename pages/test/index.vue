@@ -1,5 +1,5 @@
 <template>
-  <div id="my-strictly-unique-vue-upload-multiple-image" style="display: flex; justify-content: center;">
+  <div id="my-strictly-unique-vue-upload-multiple" style="display: flex; justify-content: center;">
     <vue-upload-multiple-image
       @upload-success="uploadImageSuccess"
       @before-remove="beforeRemove"
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import VueUploadMultipleImage from 'vue-upload-multiple-image'
+// import VueUploadMultipleImage from 'vue-upload-multiple-image'
 export default {
   name: "AppUpload",
   components:{
-    VueUploadMultipleImage},
+    },
   data(){
     return{
       file:"",
