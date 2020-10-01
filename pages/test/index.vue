@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import VueUploadMultipleImage from 'vue-upload-multiple-image'
+// import VueUploadMultipleImage from 'vue-upload-multiple-image'
 export default {
   name: "AppUpload",
   components:{
